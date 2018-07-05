@@ -1,4 +1,6 @@
 # cmake-cygwin
+## Goal
+The goal of this project is to provide a cmake binary compatible with cygwin. Cygwin provides one, however, it is outdated. This project will provide versions more up-to-date.
 
 ## How to compile cmake 3.10.3
 * Install cygwin on Windows
@@ -24,4 +26,4 @@
 
 Source: https://egoboo.org/build-from-source/windows-10-cygwin/how-to-install-a-more-recent-cmake-version-on-cygwin/
 
-The only issue with this build is that it is creating unexpected folders with emoji in the name. Those folders will appears where the cmake.exe file is located as well as in the temporary folder cmake creates during builds
+The only issue with this build is that it is creating unexpected folders with an emoji in the name. Those folders will appear in the CWD as well as in the cmake build folder.
